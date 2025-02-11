@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "id": "id",
+      "image": "",
+      "title": "title",
+      "usedLanguages": ["html", "css", "javascript"]
+    }
+  ]
+}
