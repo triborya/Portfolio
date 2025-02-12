@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/css/Competences.css";
 
 const Competences = () => {
   return (

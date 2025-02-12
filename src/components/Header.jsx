@@ -1,4 +1,6 @@
 import React from "react";
+import "../assets/css/Header.css";
+import TempImage from "../assets/images/EifelTower.png";
 
 const Header = () => {
   let HeaderData = {
@@ -18,7 +20,7 @@ const Header = () => {
           <button className="HeaderButton">contactez-moi</button>
         </div>
         <div className="MarioImgDiv">
-          <img src="" className="Mario" alt="Me" />
+          <img src={TempImage} className="Mario" alt="Me" />
         </div>
       </div>
       <hr className="HeaderHR" />

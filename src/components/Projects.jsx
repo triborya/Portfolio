@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/css/Projects.css";
 import Data from "../assets/json/data.json";
 
 const Projects = () => {
@@ -11,14 +12,14 @@ const Projects = () => {
         {Data.projects.map((project) => (
           <div key={project.id}>
             <img
-              className="cardImage"
+              className="CardImage"
               src={project.image}
               alt={project.title}
             />
-            <div className="cardTextDiv">
-              <h2 className="cardTitle">{project.title}</h2>
-              <p className="languagesUsed">
-                <div className="lags">
+            <div className="CardTextDiv">
+              <h2 className="CardTitle">{project.title}</h2>
+              <p className="LanguagesUsed">
+                <div className="Langs">
                   {project.usedLanguages.map((usedLanguage) => (
                     <div>{usedLanguage}</div>
                   ))}
