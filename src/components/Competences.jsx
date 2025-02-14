@@ -6,16 +6,16 @@ const Competences = () => {
     <>
       <div className="Competences">
         <div>
-          <h3>C1</h3>
-          <h3>C2</h3>
+          <h3>HTML</h3>
+          <h3>CSS</h3>
         </div>
         <div>
-          <h3>C1</h3>
-          <h3>C2</h3>
+          <h3>JavaScript</h3>
+          <h3>TypeScript</h3>
         </div>
         <div>
-          <h3>C1</h3>
-          <h3>C2</h3>
+          <h3>C++</h3>
+          <h3>C#</h3>
         </div>
       </div>
       <hr />
