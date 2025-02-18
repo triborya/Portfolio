@@ -1,10 +1,52 @@
 {
   "projects": [
     {
-      "id": "id",
-      "image": "",
-      "title": "title",
+      "id": "rnm",
+      "image": "https://i.imgur.com/Lczu9Bk.png",
+      "title": "Rick and Morty Wiki",
       "usedLanguages": ["html", "css", "javascript"],
+      "link": ""
+    },
+    {
+      "id": "scc",
+      "image": "https://i.imgur.com/n8fa4vM.png",
+      "title": "Self Care Center",
+      "usedLanguages": ["html", "css", "javascript"],
+      "link": ""
+    },
+    {
+      "id": "tracker",
+      "image": "https://i.imgur.com/WyGgHDs.png",
+      "title": "Time Tracker",
+      "usedLanguages": ["html", "css", "javascript"],
+      "link": ""
+    },
+    {
+      "id": "pokemon",
+      "image": "https://i.imgur.com/3bUmwED.png",
+      "title": "Pokemon Shopper",
+      "usedLanguages": ["html", "css", "javascript", "sql"],
+      "link": ""
+    },
+    {
+      "id": "gym",
+      "image": "https://i.imgur.com/1YJ5418.png",
+      "title": "EvoGym site",
+      "usedLanguages": ["html", "css", "typescript"],
+      "link": ""
+    },
+    {
+      "id": "electronics",
+      "image": "https://i.imgur.com/jmAkSBt.png",
+      "title": "electronics store",
+      "usedLanguages": ["xaml", "c#", "sql"],
+      "link": ""
+    },
+    {
+      "id": "other",
+      "image": "https://i.imgur.com/NyWbIw3.png",
+      "title": "Other projects",
+      "usedLanguages": ["Discord Bots", "Video Games", "YOLO training"],
       "link": ""
     }
   ]
