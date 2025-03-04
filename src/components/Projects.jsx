@@ -11,11 +11,13 @@ const Projects = () => {
       <div className="ProjectsGrid">
         {Data.projects.map((project) => (
           <div key={project.id} className="CardDiv">
-            <img
-              className="CardImage"
-              src={project.image}
-              alt={project.title}
-            />
+            <a href={project.link} target="_blank">
+              <img
+                className="CardImage"
+                src={project.image}
+                alt={project.title}
+              />
+            </a>
             <div className="CardTextDiv">
               <h2 className="CardTitle">{project.title}</h2>
               <div className="LanguagesUsed">
