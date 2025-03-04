@@ -5,35 +5,35 @@
       "image": "https://i.imgur.com/Lczu9Bk.png",
       "title": "Rick and Morty Wiki",
       "usedLanguages": ["html", "css", "javascript"],
-      "link": ""
+      "link": "https://github.com/triborya/RnM-API"
     },
     {
       "id": "scc",
       "image": "https://i.imgur.com/n8fa4vM.png",
       "title": "Self Care Center",
       "usedLanguages": ["html", "css", "javascript"],
-      "link": ""
+      "link": "https://github.com/triborya/SelfCareCenter"
     },
     {
       "id": "tracker",
       "image": "https://i.imgur.com/WyGgHDs.png",
       "title": "Time Tracker",
       "usedLanguages": ["html", "css", "javascript"],
-      "link": ""
+      "link": "https://github.com/triborya/Time-Tracking-Dashboard"
     },
     {
       "id": "pokemon",
       "image": "https://i.imgur.com/3bUmwED.png",
       "title": "Pokemon Shopper",
       "usedLanguages": ["html", "css", "javascript", "sql"],
-      "link": ""
+      "link": "https://github.com/triborya/PokemonShopper"
     },
     {
       "id": "gym",
       "image": "https://i.imgur.com/1YJ5418.png",
       "title": "EvoGym site",
       "usedLanguages": ["html", "css", "typescript"],
-      "link": ""
+      "link": "https://github.com/triborya/EvoGym"
     },
     {
       "id": "electronics",
@@ -47,14 +47,14 @@
       "image": "https://i.imgur.com/NyWbIw3.png",
       "title": "YOLO training",
       "usedLanguages": ["Python", "PyTorch", "YOLO"],
-      "link": ""
+      "link": "https://github.com/triborya/YOLO-Trainer-ONNX-"
     },
     {
       "id": "dbot",
       "image": "https://i.imgur.com/OAZjWm9.png",
       "title": "Discord bots",
       "usedLanguages": ["JS", "Node.js"],
-      "link": ""
+      "link": "https://github.com/triborya/DBot"
     }
   ]
 }
