@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../assets/css/App.css";
 import "../assets/css/index.css";
 import Header from "./Header";
@@ -8,13 +8,15 @@ import Footer from "./Footer";
 import ParticlesBG from "./Particles";
 
 function App() {
+  const senderRef = useRef(null);
+
   return (
     <>
       <ParticlesBG />
-      <Header />
+      <Header senderRef={senderRef} />
       <Competences />
       <Projects />
-      <Footer />
+      <Footer senderRef={senderRef} />
     </>
   );
 }
