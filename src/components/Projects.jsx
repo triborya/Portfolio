@@ -10,7 +10,7 @@ const Projects = () => {
       </div>
       <div className="ProjectsGrid">
         {Data.projects.map((project) => (
-          <div key={project.id}>
+          <div key={project.id} className="CardDiv">
             <img
               className="CardImage"
               src={project.image}
@@ -18,13 +18,13 @@ const Projects = () => {
             />
             <div className="CardTextDiv">
               <h2 className="CardTitle">{project.title}</h2>
-              <p className="LanguagesUsed">
+              <div className="LanguagesUsed">
                 <div className="Langs">
                   {project.usedLanguages.map((usedLanguage) => (
-                    <div>{usedLanguage}</div>
+                    <div key={usedLanguage}>{usedLanguage}</div>
                   ))}
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         ))}

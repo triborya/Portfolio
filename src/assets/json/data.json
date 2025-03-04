@@ -43,10 +43,17 @@
       "link": ""
     },
     {
-      "id": "other",
+      "id": "yolo",
       "image": "https://i.imgur.com/NyWbIw3.png",
-      "title": "Other projects",
-      "usedLanguages": ["Discord Bots", "Video Games", "YOLO training"],
+      "title": "YOLO training",
+      "usedLanguages": ["Python", "PyTorch", "YOLO"],
+      "link": ""
+    },
+    {
+      "id": "dbot",
+      "image": "https://i.imgur.com/OAZjWm9.png",
+      "title": "Discord bots",
+      "usedLanguages": ["JS", "Node.js"],
       "link": ""
     }
   ]
